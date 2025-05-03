@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onat İnşaat</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Onat İnşaat</div>
+    <nav>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Kaliteli yapılar, sağlam gelecek.</h1>
+    <p>Yeni web sitemize hoş geldiniz!</p>
+  </main>
+
+</body>
+</html>
